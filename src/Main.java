@@ -5,5 +5,9 @@ public class Main {
         Book misery = new Book("Misery", stephenKing, 1987);
         Book inOurTime = new Book("In Our Time", ernestHemingway, 1923);
         inOurTime.setDate(1924); //correct date
+        System.out.println(stephenKing);
+        System.out.println(ernestHemingway);
+        System.out.println(misery);
+        System.out.println(inOurTime);
     }
 }
